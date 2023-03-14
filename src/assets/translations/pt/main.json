@@ -1746,13 +1746,30 @@
   "idle": {
     "emptyTitle": "Ganhe %{apy}% no seu %{asset} com a Idle Finance",
     "emptyBody": {
-      "bestYield": {
+      "seniorBestYield": {
         "page-1": {
-          "title": "Melhor Estratégia de Rendimento",
-          "body": "A estratégia de alocação de melhor rendimento maximiza os retornos detectando mudanças nas taxas de juros em diferentes protocolos de empréstimo."
+          "title": "Estratégia Senior Best Yield",
+          "body": "Senior Best Yield são estratégias definidas que automaticamente encaminham fundos através de múltiplas fontes de rendimento de risco conservadoras para fornecer sempre o APY mais elevado"
         },
         "page-2": {
-          "title": "Melhores estratégias de rendimento:"
+          "title": "Estratégias de Best Yield Senior",
+          "bullets": {
+            "one": "Automatização e optimização da geração de rendimento em todas as tranches Aave, Compound, e Multiple Senior Tranches",
+            "two": "Oferecer retornos maximizados sem o utilizador verificar constantemente as taxas e o gás queimado em cada transferência"
+          }
+        }
+      },
+      "juniorBestYield": {
+        "page-1": {
+          "title": "Estratégia de Melhor Rendimento Júnior",
+          "body": "Os cofres Junior Best Yield são estratégias definidas e esquecidas que automaticamente encaminham fundos através de múltiplas Tranches Junior para fornecer sempre APYs potenciados e maximizados"
+        },
+        "page-2": {
+          "title": "Estratégias Junior Best Yield:",
+          "bullets": {
+            "one": "Automatização e optimização da geração de rendimento através de múltiplas Tranches Júnior, proporcionando um aumento do rendimento por desenho",
+            "two": "Oferecer retornos maximizados sem o utilizador verificar constantemente as taxas e o gás queimado em cada transferência"
+          }
         }
       },
       "seniorTranche": {
@@ -1780,7 +1797,9 @@
       "minRisk": "Exposição ao risco minimizada",
       "builtInCoverage": "Cobertura integrada para recompensas de taxa variável",
       "noLockingPeriod": "Sem período de bloqueio ou épocas",
-      "autoReinvest": "Tokens re-investidos"
+      "autoReinvest": "Tokens re-investidos",
+      "fundsCoveredJunior": "Fundos cobertos por Fracções Júnior",
+      "automation": "Automatização e optimização da geração de rendimento em todas as tranches Aave, Compound, e Multiple Senior Tranches"
     },
     "bestYield": {
       "title": "Quais as Melhores Recompensas?",
